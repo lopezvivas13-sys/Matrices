@@ -3,9 +3,6 @@ import java.util.Scanner;
 
 public class Matrices {
 
-    // ---------------------------------------------------------------
-    // CONSTANTES
-    // ---------------------------------------------------------------
     /** Tamano maximo permitido (N x N) para no saturar la consola. */
     static final int MAX_DIMENSION = 10;
 
@@ -624,9 +621,7 @@ public class Matrices {
         return Double.parseDouble(s);
     }
 
-    // ===============================================================
     //  FORMATO DE SALIDA (FRACCIONES / DECIMALES)
-    // ===============================================================
 
     /**
      * Devuelve un numero como entero, fraccion simplificada o decimal con 2 decimales.
